@@ -1,0 +1,1133 @@
+h2 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1 {
+  font-family: "Playpen Sans Thai", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h5 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+
+/* Section 2 - ปรับเฉพาะข้อความ p */
+.section-2 p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.book-cover-wrapper {
+    position: relative;
+}
+
+.couple-overlay {
+    position: absolute;
+    right: -30px;
+    top: 80%;
+    transform: translateY(-50%);
+    width: 180px;
+    height: auto;
+    z-index: 2;
+}
+
+
+.hero-text {
+    display: inline-block;
+
+    width: fit-content;
+    max-width: 90%;
+
+    margin: 0 auto;
+    padding: 18px 40px;
+
+    border: 3px solid #6b5845;
+    border-radius: 15px;
+
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 24px;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+/* ================================
+   Tablet
+================================ */
+
+@media (max-width: 768px) {
+    footer {
+        padding: 75px 0 40px;
+        margin-top: 55px;
+    }
+
+    footer::before {
+        top: -35px;
+        height: 40px;
+    }
+}
+
+/* ================================
+   Mobile
+================================ */
+
+@media (max-width: 480px) {
+    footer {
+        padding: 65px 0 35px;
+        margin-top: 45px;
+    }
+
+    footer::before {
+        top: -25px;
+        height: 30px;
+    }
+}
+footer .footer-title {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+้
+
+
+div {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* กรอบเฉพาะคำโปรย */
+.hero-text {
+    display: inline-block;
+    max-width: 100%;
+    padding: 25px 30px;
+    border: 2px solid #6b4f3b;
+    border-radius: 10px;
+    background-color: #fffaf5;
+    box-sizing: border-box;
+    line-height: 1.8;
+    
+}
+
+
+#contact {
+    margin-top: 70px;
+}
+
+/* =================================
+   Footer
+================================= */
+
+#contact {
+    margin-top: 70px;
+}
+
+
+/* สิ่งที่เรื่องราวมอบให้ */
+
+.footer-value {
+    background-color: #6b4f3b;
+    color: #fff;
+    padding: 80px 20px;
+}
+
+.footer-value .footer-title {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.footer-value p {
+    color: #fff;
+    line-height: 1.9;
+}
+
+.footer-highlight {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.8;
+    margin: 30px 0;
+}
+
+
+/* =========================
+   สิ่งที่เรื่องราวมอบให้
+========================= */
+
+.footer-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.footer-value p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.footer-highlight {
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+
+
+
+
+
+/* =====================================
+   สิ่งที่เรื่องราวมอบให้
+   กรอบลายคลื่นทะเล
+===================================== */
+
+.footer-value {
+    position: relative;
+    isolation: isolate;
+
+    /* สีพื้นหลังคลื่นทะเล */
+    background-color: #6b4f3b;
+    color: #fff;
+
+    padding: 60px 0;
+    margin: 45px 0;
+}
+
+/* =====================================
+   คลื่นทะเลด้านบน
+===================================== */
+
+.footer-value::before {
+    content: "";
+    position: absolute;
+
+    top: -35px;
+    left: 0;
+
+    width: 100%;
+    height: 36px;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 80' preserveAspectRatio='none'%3E%3Cpath fill='%236b4f3b' d='M0 40 C120 0 240 80 360 40 S600 0 720 40 S960 80 1080 40 S1320 0 1440 40 L1440 80 L0 80 Z'/%3E%3C/svg%3E");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* =====================================
+   คลื่นทะเลด้านล่าง
+===================================== */
+
+.footer-value::after {
+    content: "";
+    position: absolute;
+
+    bottom: -35px;
+    left: 0;
+
+    width: 100%;
+    height: 36px;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 80' preserveAspectRatio='none'%3E%3Cpath fill='%236b4f3b' d='M0 0 L1440 0 L1440 40 C1320 0 1200 80 1080 40 S840 0 720 40 S480 80 360 40 S120 0 0 40 Z'/%3E%3C/svg%3E");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* ให้ข้อความอยู่เหนือส่วนตกแต่ง */
+
+.footer-value .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* หัวข้อ */
+
+.footer-value .footer-title {
+    margin-bottom: 25px;
+}
+
+/* ข้อความเน้น */
+
+.footer-value .footer-highlight {
+    font-size: clamp(22px, 2.5vw, 36px);
+    line-height: 1.8;
+    margin: 25px 0;
+}
+
+/* =====================================
+   Tablet
+===================================== */
+
+@media (max-width: 768px) {
+    .footer-value {
+        padding: 45px 0;
+        margin: 35px 0;
+    }
+
+    .footer-value::before {
+        top: -27px;
+        height: 28px;
+    }
+
+    .footer-value::after {
+        bottom: -27px;
+        height: 28px;
+    }
+
+    .footer-value .footer-highlight {
+        line-height: 1.7;
+    }
+}
+
+/* =====================================
+   Mobile
+===================================== */
+
+@media (max-width: 480px) {
+    .footer-value {
+        padding: 35px 0;
+        margin: 25px 0;
+    }
+
+    .footer-value::before {
+        top: -20px;
+        height: 21px;
+    }
+
+    .footer-value::after {
+        bottom: -20px;
+        height: 21px;
+    }
+
+    .footer-value .footer-highlight {
+        font-size: 19px;
+        line-height: 1.7;
+    }
+}
+
+
+
+
+
+
+/* ติดต่อเรา - Footer */
+
+#footer-contact {
+    background-color: #fffaf5;
+    padding: 70px 20px 50px;
+}
+
+.footer-contact {
+    background-color: #fffaf5;
+    color: #4a382d;
+    border: 2px solid #6b4f3b;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.footer-contact .footer-title {
+    color: #6b4f3b;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+
+/* ข้อมูลติดต่อ */
+
+.contact-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.contact-box i {
+    color: #6b4f3b;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.contact-box strong {
+    display: block;
+    color: #6b4f3b;
+    margin-bottom: 5px;
+}
+
+.contact-box p {
+    color: #666;
+}
+
+
+/* Copyright */
+
+#footer-contact .border-top {
+    border-color: #6b4f3b !important;
+}
+
+ h5 {
+    font-size: 24px;
+}
+
+/* =====================================================
+   ส่วนย้อนอดีต - บรรยากาศกรุงศรีอยุธยา
+===================================================== */
+
+.history-section {
+    position: relative;
+    overflow: hidden;
+
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.hero {
+    position: relative;
+
+    background: #f8f1e5;
+
+    min-height: 720px;
+
+    padding: 60px 0 40px;
+
+    overflow: hidden;
+}
+
+
+/* =========================================
+   ฝั่งซ้าย
+========================================= */
+
+.hero-left {
+    position: relative;
+
+    min-height: 620px;
+
+    padding-top: 10px;
+}
+
+
+/* =========================================
+   HERO SECTION
+   พื้นหลังสไตล์บุพเพสันนิวาส / อยุธยา
+========================================= */
+
+.hero {
+    position: relative;
+
+    /* พื้นหลังหลัก */
+    background:
+        radial-gradient(
+            circle at 20% 80%,
+            rgba(255, 255, 255, 0.75) 0%,
+            rgba(255, 255, 255, 0.35) 25%,
+            transparent 55%
+        ),
+        radial-gradient(
+            circle at 80% 30%,
+            rgba(255, 248, 225, 0.55) 0%,
+            transparent 45%
+        ),
+        linear-gradient(
+            135deg,
+            #f8f1e5 0%,
+            #f5eddf 50%,
+            #eee3d0 100%
+        );
+
+    min-height: 720px;
+
+    padding: 70px 0 50px;
+
+    overflow: hidden;
+
+    isolation: isolate;
+}
+
+
+/* =========================================
+   แสงฟุ้งด้านล่าง
+========================================= */
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    left: -10%;
+    bottom: -35%;
+
+    width: 75%;
+    height: 75%;
+
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(255, 255, 255, 0.9) 0%,
+            rgba(255, 255, 255, 0.55) 30%,
+            rgba(255, 255, 255, 0.15) 55%,
+            transparent 75%
+        );
+
+    filter: blur(25px);
+
+    z-index: -1;
+
+    pointer-events: none;
+}
+
+
+/* =========================================
+   แสงด้านขวา
+========================================= */
+
+.hero::after {
+    content: "";
+
+    position: absolute;
+
+    right: -10%;
+    top: 10%;
+
+    width: 50%;
+    height: 70%;
+
+    background:
+        radial-gradient(
+            ellipse,
+            rgba(255, 250, 235, 0.65),
+            transparent 70%
+        );
+
+    filter: blur(30px);
+
+    z-index: -1;
+
+    pointer-events: none;
+}
+
+
+/* =========================================
+   ตกแต่งลายเมฆไทยด้วย pseudo element
+========================================= */
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* =========================================
+   ฝั่งข้อความ
+========================================= */
+
+.hero .col-md-8 {
+    position: relative;
+}
+
+
+/* =========================================
+   พระจันทร์ด้านบน
+========================================= */
+
+.moon-top {
+    position: relative;
+
+    display: flex;
+
+    justify-content: flex-start;
+
+    margin-bottom: 10px;
+
+    z-index: 5;
+}
+
+.moon-top img {
+    width: 110px;
+
+    height: auto;
+
+    display: block;
+
+    filter:
+        drop-shadow(
+            0 5px 8px rgba(100, 70, 35, 0.15)
+        );
+}
+
+
+/* =========================================
+   ข้อความ
+========================================= */
+
+.hero h1 {
+    position: relative;
+
+    z-index: 5;
+
+    margin: 0;
+
+    color: #302a25;
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+    line-height: 1.45;
+
+    letter-spacing: -0.5px;
+}
+
+
+
+
+
+/* =========================================
+   รูปหนังสือ
+========================================= */
+
+.book-cover-wrapper {
+    position: relative;
+
+    width: 100%;
+
+    max-width: 420px;
+
+    margin-left: auto;
+
+    margin-right: 20px;
+
+    z-index: 10;
+}
+
+
+/* หนังสือยังอยู่ตำแหน่งเดิม */
+
+.hero-image {
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 20px 40px rgba(70, 50, 30, 0.20);
+}
+
+
+/* =========================================
+   รูปคู่รัก
+   ยังคงซ้อนอยู่ด้านล่างซ้ายของหนังสือ
+========================================= */
+
+.couple-overlay {
+    position: absolute;
+
+    left: -75px;
+
+    bottom: -25px;
+
+    width: 180px;
+
+    height: auto;
+
+    z-index: 20;
+
+    border-radius: 12px;
+
+    filter:
+        drop-shadow(
+            0 8px 15px rgba(60, 40, 25, 0.20)
+        );
+}
+
+
+/* =========================================
+   เพิ่มแสงฟุ้งรอบตัวละคร
+========================================= */
+
+.couple-overlay::after {
+    content: "";
+}
+
+
+/* =========================================
+   Tablet
+========================================= */
+
+@media (max-width: 992px) {
+
+    .hero {
+        min-height: auto;
+
+        padding: 55px 0 70px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .moon-top img {
+        width: 100px;
+    }
+
+    .book-cover-wrapper {
+        max-width: 360px;
+
+        margin: 30px auto 0;
+    }
+
+    .couple-overlay {
+        left: -35px;
+
+        bottom: -20px;
+
+        width: 150px;
+    }
+
+}
+
+
+/* =========================================
+   Mobile
+========================================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 45px 0 70px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+
+        line-height: 1.5;
+    }
+
+    .moon-top img {
+        width: 90px;
+    }
+
+    .book-cover-wrapper {
+        max-width: 320px;
+
+        margin: 60px auto 0;
+    }
+
+    .couple-overlay {
+        left: -20px;
+
+        bottom: -15px;
+
+        width: 130px;
+    }
+
+}
+
+
+/* =========================================
+   โทรศัพท์ขนาดเล็ก
+========================================= */
+
+@media (max-width: 576px) {
+
+    .hero h1 {
+        font-size: 25px;
+    }
+
+    .moon-top img {
+        width: 80px;
+    }
+
+    .book-cover-wrapper {
+        max-width: 280px;
+    }
+
+    .couple-overlay {
+        left: -10px;
+
+        bottom: -10px;
+
+        width: 110px;
+    }
+
+}
+
+
+/* =========================================
+   Responsive : Tablet
+========================================= */
+
+@media (max-width: 992px) {
+
+    .hero {
+        min-height: auto;
+
+        padding: 50px 0;
+    }
+
+
+    .hero-left {
+        min-height: 550px;
+    }
+
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+
+    .moon-top img {
+        width: 100px;
+    }
+
+
+    .couple-image {
+        left: -30px;
+
+        bottom: -60px;
+
+        width: 330px;
+    }
+
+
+    .book-cover-wrapper {
+        max-width: 360px;
+
+        margin: 30px auto 0;
+    }
+
+}
+
+
+/* =========================================
+   Responsive : Mobile
+========================================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 45px 0 70px;
+    }
+
+
+    .hero-left {
+        min-height: 500px;
+    }
+
+
+    .moon-top {
+        margin-bottom: 15px;
+    }
+
+
+    .moon-top img {
+        width: 90px;
+    }
+
+
+    .hero h1 {
+        font-size: 30px;
+
+        line-height: 1.5;
+    }
+
+
+    .couple-image {
+        left: -20px;
+
+        bottom: -50px;
+
+        width: 280px;
+    }
+
+
+    .book-cover-wrapper {
+        max-width: 320px;
+
+        margin: 60px auto 0;
+    }
+
+}
+
+
+/* =========================================
+   Responsive : โทรศัพท์เล็ก
+========================================= */
+
+@media (max-width: 576px) {
+
+    .hero h1 {
+        font-size: 25px;
+    }
+
+
+    .moon-top img {
+        width: 80px;
+    }
+
+
+    .hero-left {
+        min-height: 440px;
+    }
+
+
+    .couple-image {
+        left: -15px;
+
+        bottom: -35px;
+
+        width: 230px;
+    }
+
+
+    .book-cover-wrapper {
+        max-width: 280px;
+    }
+
+}
+
+
+/* =========================================
+   Responsive
+========================================= */
+
+@media (max-width: 768px) {
+
+    .moon-top {
+        justify-content: flex-start;
+        padding-left: 0;
+        margin-bottom: 8px;
+    }
+
+    .moon-top img {
+        width: 90px;
+    }
+
+}
+/* =========================================
+   ข้อมูลทั่วไปของหนังสือ
+========================================= */
+
+.book-info-section {
+    background: #f5eee3;
+    padding: 55px 0 75px;
+}
+
+
+/* กล่องเนื้อหา */
+
+.book-info-wrapper {
+    padding: 10px 5px;
+}
+
+
+/* =========================================
+   หัวข้อ
+========================================= */
+
+.section-icon {
+    width: 55px;
+    height: 55px;
+
+    margin: 0 auto 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #6b4f35;
+    color: #f5eee3;
+
+    border-radius: 50%;
+
+    font-size: 24px;
+}
+
+
+.book-info-title {
+    margin: 0;
+
+    font-size: 34px;
+    font-weight: 700;
+
+    color: #3d3025;
+}
+
+
+.title-line {
+    width: 70px;
+    height: 3px;
+
+    margin: 15px auto 0;
+
+    background: #9b754d;
+
+    border-radius: 10px;
+}
+
+
+/* =========================================
+   กล่องข้อมูล
+========================================= */
+
+.book-info-item {
+    height: 100%;
+
+    display: flex;
+    align-items: flex-start;
+
+    padding: 22px 25px;
+
+    background: rgba(255, 255, 255, 0.55);
+
+    border: 1px solid rgba(107, 79, 53, 0.15);
+
+    border-radius: 12px;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Hover */
+
+.book-info-item:hover {
+    transform: translateY(-3px);
+
+    background: rgba(255, 255, 255, 0.85);
+
+    box-shadow: 0 8px 20px rgba(80, 55, 35, 0.08);
+}
+
+
+/* =========================================
+   ไอคอนแต่ละข้อมูล
+========================================= */
+
+.info-icon {
+    min-width: 48px;
+    width: 48px;
+    height: 48px;
+
+    margin-right: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #8a6848;
+    color: #fff;
+
+    border-radius: 50%;
+
+    font-size: 20px;
+}
+
+
+/* =========================================
+   ข้อความ
+========================================= */
+
+.info-content strong {
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-size: 20px;
+
+    color: #3d3025;
+}
+
+
+.info-content p {
+    margin: 0;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    color: #6f6257;
+}
+
+
+/* =========================================
+   ส่วนรางวัล
+========================================= */
+
+.award-item {
+    background: rgba(255, 250, 238, 0.75);
+
+    border-left: 5px solid #9b754d;
+}
+
+
+.award-item .info-icon {
+    background: #9b754d;
+}
+
+
+/* =========================================
+   Responsive
+========================================= */
+
+@media (max-width: 768px) {
+
+    .book-info-section {
+        padding: 45px 0 60px;
+    }
+
+    .book-info-title {
+        font-size: 28px;
+    }
+
+    .book-info-item {
+        padding: 18px;
+    }
+
+    .info-content strong {
+        font-size: 18px;
+    }
+
+    .info-content p {
+        font-size: 16px;
+    }
+
+
+ 
+
+}
+
